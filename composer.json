@@ -1,0 +1,22 @@
+{
+    "name": "dsc/ipay",
+    "description": "payment gateway for ipay africa",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fredrick Boaz",
+            "email": "fredrickboaz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Dsc\\Ipay\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
